@@ -3,8 +3,8 @@ title:              我的博客
 bio:                '中山大学南方学院 16网络与新媒体1班 杨钰琳'
 description:        "网页设计与信息可视化学习成果"
 locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/f/blog" # the subpath of your site, e.g. /blog
+url: "https://YangYuLin995.github.io" # the base hostname & protocol for your site
 
 defaults:
 - scope:
