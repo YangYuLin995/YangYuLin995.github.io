@@ -13,13 +13,13 @@ sitemap:
 
 It is a site which collects my works on web design and tableau.
 
-### Content is Imortant
+### Learning web design
 <div class="box">
   <p>
-  In saying that, a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
+  去设计属于自己的网页并不是一件容易的事情，在搭建博客环境的过程中，我遇到了许多难以想象的问题，经常会沉浸在问题中不可自拔。但是只要坚持，总会有解决办法。
   </p>
 </div>
 
 <span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
 
-On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
+非常开心你能来。
