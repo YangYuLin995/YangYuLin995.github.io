@@ -1,7 +1,7 @@
 # Site
 title:              我的博客
 bio:                '中山大学南方学院 16网络与新媒体1班 杨钰琳'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+description:        "网页设计与信息可视化学习成果"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
