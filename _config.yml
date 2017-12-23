@@ -1,10 +1,10 @@
 # Site
-title:              我的博客
-bio:                '中山大学南方学院 16网络与新媒体1班 杨钰琳'
-description:        "网页设计与信息可视化的学习笔记与学习成果"
-locale:             中国广州
-baseurl: "/f/blog" 
-url: "https://yangyulin995.github.io/" 
+title:              Massively
+bio:                'Jekyll version of the Massively theme by HTML5UP'
+description:        "Jekyll version of the Massively theme by HTML5UP"
+locale:             en_US
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -41,9 +41,9 @@ instagram:          default
 github:             default
 
 # personal
-location:          中国, 广州
-phone:              136-222-42092
-email:              yulin.yeung@hotmail.com
+location:           Los Angeles, CA
+phone:              310-318-5555
+email:              info@default.com
 
 # Gems
 gems:
