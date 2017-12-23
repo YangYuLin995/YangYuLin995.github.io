@@ -1,8 +1,8 @@
 # Site
 title:              我的博客
 bio:                '中山大学南方学院 16网络与新媒体1班 杨钰琳'
-description:        "网页设计与信息可视化学习成果"
-locale:             en_US
+description:        "个人作品集"
+locale:             CN_CN
 baseurl: "/f/blog" # the subpath of your site, e.g. /blog
 url: "https://YangYuLin995.github.io/" # the base hostname & protocol for your site
 
@@ -41,9 +41,9 @@ instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           China,GZ
+phone:              136-222-42092
+email:              yulin.yeung@hotmail.com
 
 # Gems
 gems:
