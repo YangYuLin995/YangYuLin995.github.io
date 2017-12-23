@@ -1,10 +1,10 @@
 # Site
 title:              我的博客
-bio:                '中大南方 网新1班'
-description:        "网页设计与信息可视化"
+bio:                'Jekyll version of the Massively theme by HTML5UP'
+description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
-baseurl: "/f/blog" # the subpath of your site, e.g. /blog
-url: "https://YangYuLin995.github.io/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
 defaults:
 - scope:
