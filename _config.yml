@@ -48,7 +48,6 @@ email:              info@default.com
 # Gems
 gems:
   - jekyll-mentions
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
