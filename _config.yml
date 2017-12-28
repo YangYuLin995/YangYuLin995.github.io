@@ -3,7 +3,7 @@
 bio: '个人作品'
 description: "个人作品"
 locale: en_US
-baseurl: "/f/blog"
+baseurl: ""
 url: https://YangYuLin995.github.io # the base hostname & protocol for your site
 
 defaults:
