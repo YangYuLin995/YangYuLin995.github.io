@@ -1,28 +1,19 @@
 ---
 layout: post
-title:  "Markdown Learning"
+title:  "搭建博客 学习笔记"
 date:   2017-12-24
-excerpt: "Huge thanks to markdown for making this awesome article! Let's see what it can do"
+excerpt: "学习markdown语法是搭建博客的基础，博客的所有文章都可以有markdown文本来构建。"
 image: "/images/pic02.jpg"
 ---
 
-## How to Use Markdown 
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
+## 如何使用Markdown 
+先将jekyll下载并安装 [how to install Jekyll](https://jekyllrb.com/)。
 
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
+将我们要复制的模板下载下来 [here](https://github.com/iwiedenm/jekyll-theme-massively) 将它存放在任意文档即可。
 
-Open a terminal window or a command line and ```cd``` to that location.
+打开一个命令行工具并输入 ```cd``` 后面空格加文件路径。
 
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
+然后输入： ```bundle exec jekyll serve```. 随后打开后面的网址就能拥有一个属于自己的博客 [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
 
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the front matter of each site. It looks like so...
-```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-```
-### Formspring integration
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
+##重点内容
+当一个博客的页面出现后，要务必更改```_config.yml``` 文档，修改基本个人信息以及博客信息。
