@@ -1,7 +1,7 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+title:              我的博客
+bio:                '杨钰琳 中山大学南方学院大二学生 16网络与新媒体1班'
+description:        "基于学习网页制作与设计及信息可视化的个人学习博客"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
