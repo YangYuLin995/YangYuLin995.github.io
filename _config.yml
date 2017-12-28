@@ -1,10 +1,10 @@
 # Site
- title: 我的博客
-bio: '个人作品'
-description: "个人作品"
-locale: en_US
-baseurl: "https://YangYuLin995.github.io"
-url: https://YangYuLin995.github.io # the base hostname & protocol for your site
+title:              Massively
+bio:                'Jekyll version of the Massively theme by HTML5UP'
+description:        "Jekyll version of the Massively theme by HTML5UP"
+locale:             en_US
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -46,7 +46,7 @@ phone:              310-318-5555
 email:              info@default.com
 
 # Gems
-plugins:
+gems:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
@@ -61,4 +61,3 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
-gem: 'wdm', '>=0.1.0' if Gem.win_platform？
