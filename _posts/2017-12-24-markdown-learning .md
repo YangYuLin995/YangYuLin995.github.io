@@ -7,7 +7,7 @@ image: "/images/pic02.jpg"
 ---
 
 ## 如何使用搭建个人博客
-###步骤
+### 步骤
 先将jekyll下载并安装 [how to install Jekyll](https://jekyllrb.com/)。
 
 将我们要复制的模板下载下来 [here](https://github.com/iwiedenm/jekyll-theme-massively) 将它存放在任意文档即可。
