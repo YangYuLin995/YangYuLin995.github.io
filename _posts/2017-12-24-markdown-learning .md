@@ -16,5 +16,5 @@ image: "/images/pic02.jpg"
 
 然后输入： ```bundle exec jekyll serve```. 随后打开后面的网址就能拥有一个属于自己的博客 [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
 
-###重点内容
+### 重点内容
 当一个博客的页面出现后，要务必更改```_config.yml``` 文档，修改基本个人信息以及博客信息。
