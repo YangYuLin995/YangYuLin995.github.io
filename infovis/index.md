@@ -7,11 +7,11 @@ sitemap:
     lastmod: 2017-11-02
     changefreq: weekly
 ---
-## About my Site
+## 信息可视化作品集
 
 <span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
 
-It is a site which collects my works on web design and tableau.
+你所看见的本页面用于存放Tableau信息可视化作品集。
 
 ### Learning web design
 <div class="box">
