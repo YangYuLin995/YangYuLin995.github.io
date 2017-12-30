@@ -16,7 +16,7 @@ image: "/images/pic02.jpg"
 * 大多数 HTML 元素可拥有属性
 
 ## 举例说明
-*  <p>元素：```<p>This is my first paragraph.</p>```
-这个 ```<p>``` 元素定义了 HTML 文档中的一个段落。
-这个元素拥有一个开始标签``` <p>```，以及一个结束标签``` </p>```。
+*  < p >元素：```< p >This is my first paragraph.< /p >```
+这个 ```< p >``` 元素定义了 HTML 文档中的一个段落。
+这个元素拥有一个开始标签``` < p >```，以及一个结束标签``` < /p >```。
 元素内容是：This is my first paragraph。
