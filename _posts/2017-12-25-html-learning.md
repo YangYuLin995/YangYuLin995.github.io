@@ -26,19 +26,17 @@ image: "/images/pic02.jpg"
 ```< body >
 < p >This is my first paragraph.< /p >
 < /body >```
-```< body >``` 元素定义了 HTML 文档的主体。
+这个```< body >``` 元素定义了 HTML 文档的主体。
 这个元素拥有一个开始标签 ```< body >```，以及一个结束标签 ```< /body >```。
 元素内容是另一个 HTML 元素（p 元素）。
 
 * < html > 元素：
 ```< html >
-
 < body >
 < p >This is my first paragraph.< /p >
 < /body >
-
 < /html >```
-```< html >```元素定义了整个 HTML 文档。
+这个```< html >```元素定义了整个 HTML 文档。
 这个元素拥有一个开始标签 ```< html >```，以及一个结束标签 ```< /html >```。
 元素内容是另一个 HTML 元素（body 元素）。
 
