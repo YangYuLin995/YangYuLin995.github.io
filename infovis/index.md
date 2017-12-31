@@ -21,9 +21,10 @@ sitemap:
 </div>
 
 ### 母婴室全国分布状况
+<span class="image center"><img src="{{ "/images/m1.JPG" | absolute_url }}" width = "700" height = "500" alt="" /></span>
 <div class="box">
   <p>
-由图表可以发现，我国的母婴室设立与地域分布有一定的关系。母婴室大多分布在沿海地区，而内陆地区则比沿海地区少许多。其次，母婴室大多分布于东部地区，西部地区接近没有，北部地区和南部地区较少。<span class="image center"><img src="{{ "/images/m1.JPG" | absolute_url }}" width = "700" height = "500" alt="" /></span>
+由图表可以发现，我国的母婴室设立与地域分布有一定的关系。母婴室大多分布在沿海地区，而内陆地区则比沿海地区少许多。其次，母婴室大多分布于东部地区，西部地区接近没有，北部地区和南部地区较少。
   </p>
 </div>
 
