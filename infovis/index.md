@@ -27,14 +27,14 @@ sitemap:
 <div class="box">
   <p>
 地震发生次数频率最高的为西北地区，为1611次。排第二的为西南地区，为1496次。而紧追第三的则是四川，为629次。
-<span class="image center"><img src="{{ "/images/dz2.jpg" | absolute_url }}" width = "250" height = "400"  alt="" /></span>
+<span class="image center"><img src="{{ "/images/dz2.JPG" | absolute_url }}" width = "250" height = "400"  alt="" /></span>
   </p>
 </div>
 
 ### 震级与震源深度的关系
 <div class="box">
   <p>
-<span class="image center"><img src="{{ "/images/dz3.jpg" | absolute_url }}" width = "650" height = "380" alt="" /></span>
+<span class="image center"><img src="{{ "/images/dz3.JPG" | absolute_url }}" width = "650" height = "380" alt="" /></span>
 震源与震级最具有相关性的集中在3.0级地震至5.0级地震之间。
   </p>
 </div>
@@ -42,13 +42,13 @@ sitemap:
 ### 2000年-2017年9月西南地区3.0级以上地震数据图
 <div class="box">
   <p>
-<span class="image center"><img src="{{ "/images/dz4.jpg" | absolute_url }}" width = "700" height = "450" alt="" /></span>
+<span class="image center"><img src="{{ "/images/dz4.JPG" | absolute_url }}" width = "700" height = "450" alt="" /></span>
   </p>
 </div>
 
 ### 近年最具代表性的两个地震震级变化图
 <div class="box">
   <p>
-<span class="image center"><img src="{{ "/images/dz5.jpg" | absolute_url }}" width = "850" height = "650" alt="" /></span>
+<span class="image center"><img src="{{ "/images/dz5.JPG" | absolute_url }}" width = "850" height = "650" alt="" /></span>
   </p>
 </div>
