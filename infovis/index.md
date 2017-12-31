@@ -18,7 +18,7 @@ sitemap:
 <div class="box">
   <p>
   &nbsp;&nbsp;&nbsp;&nbsp;中国是一个地震频发的国家。近五年来中国共发生了3926次地震，期中，地震发生所集中的地方为西北地区，西南地区，及四川地区。
-  <span class="image center"><img src="{{ "/images/p1.jpg" | absolute_url }}" width = "600" height = "400" alt="" /></span> 
+  <span class="image center"><img src="{{ "/images/p7.JPG" | absolute_url }}" width = "600" height = "400" alt="" /></span> 
   </p>
 </div>
 
