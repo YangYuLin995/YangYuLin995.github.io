@@ -32,27 +32,18 @@ sitemap:
 ## 期中项目——中国地震数据可视化 
 
 ### 近五年来中国的地震都发生在哪里？
+<span class="image center"><img src="{{ "/images/dz1.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span> 
 <div class="box">
   <p>
-  &nbsp;&nbsp;&nbsp;&nbsp;中国是一个地震频发的国家。近五年来中国共发生了3926次地震，期中，地震发生所集中的地方为西北地区，西南地区，及四川地区。
-  <span class="image center"><img src="{{ "/images/dz1.JPG" | absolute_url }}" width = "600" height = "400" alt="" /></span> 
-  </p>
-</div>
-
-
-### 地震最多的前三个城市
-<div class="box">
-  <p>
-地震发生次数频率最高的为西北地区，为1611次。排第二的为西南地区，为1496次。而紧追第三的则是四川，为629次。
-<span class="image center"><img src="{{ "/images/dz2.JPG" | absolute_url }}" width = "250" height = "400"  alt="" /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;中国是一个地震频发的国家。近五年来中国共发生了3926次地震，期中，地震发生所集中的地方为西北地区，西南地区，及四川地区。地震发生次数频率最高的为西北地区，为1611次。排第二的为西南地区，为1496次。而紧追第三的则是四川，为629次。
   </p>
 </div>
 
 ### 震级与震源深度的关系
+<span class="image center"><img src="{{ "/images/dz3.JPG" | absolute_url }}" width = "650" height = "500" alt="" /></span>
 <div class="box">
   <p>
 震源与震级最具有相关性的集中在3.0级地震至5.0级地震之间。
-<span class="image center"><img src="{{ "/images/dz3.JPG" | absolute_url }}" width = "650" height = "380" alt="" /></span>
   </p>
 </div>
 
