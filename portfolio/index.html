@@ -9,10 +9,16 @@ sitemap:
     changefreq: weekly
 ---
 <header class="major">
-	<h1>网页制作与设计<br />
-	作品集</h1>
+	<h1><a href="#">网页制作与设计<br />
+	作品集</a></h1>
 </header>
 
+<!-- Blockquote -->
+	<h2>介绍</h2>
+	<blockquote>通过模仿老师给出的优秀学生例子，做出的文传标志SVG图。</blockquote>
+
+	<hr />
+	
 <div class="svg_outer">
 <svg class="svg_inner" xmlns="http://www.w3.org/2000/svg" height="450" width="450" >
  			<g >
@@ -39,9 +45,9 @@ sitemap:
     
     width: 200px;
     height: 200px;
-    transform: translate(-50%,-130%);
+    transform: translate(-40%,-120%);
 }
-/*让文学与传媒学院中英文绕中心顺时针旋转*/
+/*使得文学与传媒学院中英文字符绕圆心顺时针旋转*/
 @keyframes clockwise {
 	0% {
 		transform: rotate(0deg);
@@ -51,10 +57,10 @@ sitemap:
 	}
 }
 .wcy {
-	animation: clockwise 10s 1s;
+	animation: clockwise 10s 3s;
 	transform-origin: 50% 50%;
 }
-/*让外围花纹绕中心顺时针旋转*/
+/*使得外花纹绕圆心顺时针旋转*/
 @keyframes anticlockwise {
 	0% {
 		transform: rotate(0deg);
@@ -64,32 +70,32 @@ sitemap:
 	}
 }
 .flower {
-	animation: anticlockwise 10s 1s;
+	animation: anticlockwise 10s 4s;
 	transform-origin: 50% 50%;
 }
-/*让中心的钟摇摆*/
+/*使得中间的钟左右摇摆*/
 @keyframes swing{
 	0% { transform: rotate(0); }
-	5% { transform: rotate(10deg); }
-	10% { transform: rotate(-9deg); }
-	15% { transform: rotate(8deg); }
-	20% { transform: rotate(-7deg); }
-	25% { transform: rotate(6deg); }
-	30% { transform: rotate(-5deg); }
-	35% { transform: rotate(4deg); }
-	40% { transform: rotate(-3deg); }
-	45% { transform: rotate(2deg); }
+	5% { transform: rotate(11deg); }
+	10% { transform: rotate(-10deg); }
+	15% { transform: rotate(9deg); }
+	20% { transform: rotate(-8deg); }
+	25% { transform: rotate(7deg); }
+	30% { transform: rotate(-6deg); }
+	35% { transform: rotate(5deg); }
+	40% { transform: rotate(-4deg); }
+	45% { transform: rotate(3deg); }
 	50% { transform: rotate(0); } 
 	100% { transform: rotate(0); }
 }
  .clock {
 	animation:swing 10s ease-in-out 0s infinite;
-	transform-origin: 50% 50%;
+	transform-origin: 60% 60%;
 }
 
 }
 </style>
-
+   <hr />
 <!-- Lists -->
 	<h2>Lists</h2>
 	<div class="row">
