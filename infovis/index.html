@@ -17,8 +17,119 @@ sitemap:
 	<h2>目录</h2>
 	<blockquote><h4>期末项目——母婴室全国分布数据可视化<br />期中项目——中国地震数据可视化</h4></blockquote>
    <hr />
-   
-<p><h3>期末项目——母婴室全国分布数据可视化</h3></p>
+
+<html>
+<head>   
+<style>   
+ div.img {
+    border: 10px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</head>
+</style>
+<body>
+
+<h2 style="text-align:center">信息可视化图概览</h2>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="m1.JPG">
+      <img src="{{ "/images/m1.JPG" | absolute_url }}" alt="" width="600" height="400">
+    </a>
+    <div class="desc">母婴室全国分布状况</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="dz1.JPG">
+      <"image center"><img src="{{ "/images/dz1.JPG" | absolute_url }}" alt="" width="600" height="400">
+    </a>
+    <div class="desc">近五年来的地震发生在哪里</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="dz3.JPG">
+      <img src="{{ "/images/dz3.JPG" | absolute_url }}" alt="" width="600" height="400">
+    </a>
+    <div class="desc">震级与震源深度的关系</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="dz4.JPG">
+      <img src="{{ "/images/dz4.JPG" | absolute_url }}" alt="" width="600" height="400">
+    </a>
+    <div class="desc">2000年-2017年9月西南地区3.0级以上地震数据图</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="dz5.JPG">
+      <img src="{{ "/images/dz5.JPG" | absolute_url }}" alt="" width="600" height="400">
+    </a>
+    <div class="desc">近年最具代表性的两个地震震级变化图</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:10px;">
+
+</div>
+
+</body>
+</html>
+ 
+   <hr /> 
+<h2><a href="#">期末项目——母婴室全国分布数据可视化</a></h2>
    <hr />
 
 <h3>概要前言</h3>
@@ -29,14 +140,14 @@ sitemap:
 </div>
 
 <h3>母婴室全国分布状况</h3>
-<span class="image center"><img src="{{ "/images/m1.JPG" | absolute_url }}" width = "700" height = "500" alt="" /></span>
+<a href="#" class="image main"><img src="{{ "/images/m1.JPG" | absolute_url }}" alt="" /></a>
 <div class="box">
   <p>
 由图表可以发现，我国的母婴室设立与地域分布有一定的关系。母婴室大多分布在沿海地区，而内陆地区则比沿海地区少许多。其次，母婴室大多分布于东部地区，西部地区接近没有，北部地区和南部地区较少。
   </p>
 </div>
-
-<p><h3>期中项目——中国地震数据可视化</h3></p>
+   <hr />
+<h2><a href="#">期中项目——中国地震数据可视化</a></h2>
    <hr /> 
 
 <h3>近五年来中国的地震都发生在哪里?</h3>
