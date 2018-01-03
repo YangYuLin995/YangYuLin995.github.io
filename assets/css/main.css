@@ -1822,7 +1822,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: rgb(218, 122, 40) !important;
 		}
 
 	strong, b {
@@ -2030,8 +2030,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2.5px #d0780b;
+			color: #d0780b !important;
 		}
 
 		input[type="submit"].special,
@@ -3162,8 +3162,8 @@
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 3px rgb(193, 171, 152);
+				color: rgb(193, 171, 152) !important;
 			}
 
 			#intro input[type="submit"].special,
@@ -3385,8 +3385,8 @@
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: rgb(193, 171, 152) !important;
+				color: rgb(193, 171, 152) !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3526,7 +3526,10 @@
 
 					#nav ul.links li a:hover {
 						color: inherit !important;
-						background-color: rgba(255, 255, 255, 0.1);
+						background-color: rgba(158, 99, 54, 0.38);
+						transition-duration: 1s;
+						transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+						
 					}
 
 				#nav ul.links li.active {
@@ -3538,7 +3541,7 @@
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: rgb(218, 122, 40) !important;
 						}
 
 		#nav ul.icons {
