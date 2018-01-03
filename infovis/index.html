@@ -22,7 +22,7 @@ sitemap:
 <head>   
 <style>   
  div.img {
-    border: 10px solid #ccc;
+    border: 5px solid #ccc;
 }
 
 div.img:hover {
@@ -75,46 +75,70 @@ div.desc {
 
 <div class="responsive">
   <div class="img">
-    <a target="_blank" href="m1.JPG">
-      <img src="{{ "/images/m1.JPG" | absolute_url }}" alt="" width="600" height="400">
-    </a>
-    <div class="desc">母婴室全国分布状况</div>
+  <span class="image center"><img src="{{ "/images/m1.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span>
+    <div class="desc">含有“母婴室”关键词的全国分布状况</div>
   </div>
 </div>
 
+<div class="responsive">
+  <div class="img">
+  <span class="image center"><img src="{{ "/images/m2.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span>
+    <div class="desc">母婴室全国分布数量排行</div>
+  </div>
+</div>
 
 <div class="responsive">
   <div class="img">
-    <a target="_blank" href="dz1.JPG">
-      <"image center"><img src="{{ "/images/dz1.JPG" | absolute_url }}" alt="" width="600" height="400">
-    </a>
+  <span class="image center"><img src="{{ "/images/m3.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span>
+    <div class="desc">母婴室所属类别数量</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+  <span class="image center"><img src="{{ "/images/m4.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span>
+    <div class="desc">含有婴儿换洗间/哺乳室关键词的母婴室全国分布图</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+  <span class="image center"><img src="{{ "/images/m5.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span>
+    <div class="desc">含有婴儿换洗间/哺乳室关键词的母婴室省份排行图</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+  <span class="image center"><img src="{{ "/images/m7.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span>
+    <div class="desc">2015全国各省GDP排行图</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+  <span class="image center"><img src="{{ "/images/dz1.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span>
     <div class="desc">近五年来的地震发生在哪里</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="img">
-    <a target="_blank" href="dz3.JPG">
-      <img src="{{ "/images/dz3.JPG" | absolute_url }}" alt="" width="600" height="400">
-    </a>
+  <span class="image center"><img src="{{ "/images/dz3.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span>
     <div class="desc">震级与震源深度的关系</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="img">
-    <a target="_blank" href="dz4.JPG">
-      <img src="{{ "/images/dz4.JPG" | absolute_url }}" alt="" width="600" height="400">
-    </a>
+  <span class="image center"><img src="{{ "/images/dz4.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span>
     <div class="desc">2000年-2017年9月西南地区3.0级以上地震数据图</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="img">
-    <a target="_blank" href="dz5.JPG">
-      <img src="{{ "/images/dz5.JPG" | absolute_url }}" alt="" width="600" height="400">
-    </a>
+  <span class="image center"><img src="{{ "/images/dz5.JPG" | absolute_url }}" width = "600" height = "500" alt="" /></span>
     <div class="desc">近年最具代表性的两个地震震级变化图</div>
   </div>
 </div>
@@ -139,13 +163,57 @@ div.desc {
   </p>
 </div>
 
-<h3>母婴室全国分布状况</h3>
+<h3>含有“母婴室”关键词的全国分布状况</h3>
 <a href="#" class="image main"><img src="{{ "/images/m1.JPG" | absolute_url }}" alt="" /></a>
 <div class="box">
   <p>
 由图表可以发现，我国的母婴室设立与地域分布有一定的关系。母婴室大多分布在沿海地区，而内陆地区则比沿海地区少许多。其次，母婴室大多分布于东部地区，西部地区接近没有，北部地区和南部地区较少。
   </p>
 </div>
+
+<h3>母婴室全国分布数量排行</h3>
+<a href="#" class="image main"><img src="{{ "/images/m2.JPG" | absolute_url }}" alt="" /></a>
+<div class="box">
+  <p>
+由图表可以发现，我国的母婴室设立与地域分布有一定的关系。江苏省居首位，有最多的母婴室，而西北地区的省份则很少，近乎没有。
+  </p>
+</div>
+
+<h3>母婴室所属类别数量</h3>
+<a href="#" class="image main"><img src="{{ "/images/m3.JPG" | absolute_url }}" alt="" /></a>
+<div class="box">
+  <p>
+由图表我们可以看到，在母婴室关键词中，它的所属类别有分许多，而在当中，最多的是购物服务，其次是生活服务，再者是公共设施。
+  </p>
+</div>
+
+<h2>数据深化</h2>
+<div class="box">
+  <p><h3>
+在做数据可视化的过程中，我发现以“母婴室”为关键词的3000多条数据中，并不能准确地得到我所想要的母婴室数据。于是，我便使用数据筛选，将数据进一步过滤，得到了以下的数据可视化图表。
+  </h3></p>
+</div>
+
+<h3>含有婴儿换洗间/哺乳室关键词的母婴室全国分布图</h3>
+<a href="#" class="image main"><img src="{{ "/images/m4.JPG" | absolute_url }}" alt="" /></a>
+<div class="box">
+  <p>
+一“婴儿换洗间/哺乳室”作为关键词，在图表上可以清晰看到，母婴室仅分布于沿海地区以及经济较为富裕地区。而西部地区及经济较为落后的地区都没有母婴室的出现。
+  </p>
+</div>
+
+<!-- Blockquote -->
+	<h3>省份和GDP与母婴室分布的关系</h3>
+	<blockquote><h4>含有婴儿换洗间/哺乳室关键词的母婴室省份排行图<br />2015全国各省GDP排行图</h4></blockquote>
+    <hr />
+<a href="#" class="image main"><img src="{{ "/images/m5.JPG" | absolute_url }}" alt="" /></a>
+<a href="#" class="image main"><img src="{{ "/images/m7.JPG" | absolute_url }}" alt="" /></a>
+<div class="box">
+  <p>
+为了证明各个省份母婴室的数量与全国各省份的GDP有一定的关系，我在国家数据库上下载了2015年全国各省GDP的数据。由两者对比，广东省与江苏省等省份的母婴室数量和GDP都有一定关系，由此证明，两样数据的关联性。而北京市与上海市作为全国领先的直辖市，他们的GDP与母婴室数量相对关联性不高，但是他们城市中所分布的母婴室的数量要远超其余各个省份。
+  </p>
+</div>
+
    <hr />
 <h2><a href="#">期中项目——中国地震数据可视化</a></h2>
    <hr /> 
