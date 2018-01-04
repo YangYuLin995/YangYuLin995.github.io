@@ -1,0 +1,35 @@
+---
+layout: page
+title: infovis学习笔记
+date:   2017-12-27 23:00:05 +0800
+categories: infovis
+sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
+<header class="major">
+	<h1><a href="#">可视化学习笔记</a></h1>
+</header>
+
+<!-- Post -->
+					<section class="posts">
+						{% for post in site.categories.infovis %}
+						{% assign mod3 = forloop.index | modulo: 3 %}
+							<article>
+								<header>
+									<span class="date">{{ post.date | date_to_string }}</span>
+									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+								</header>
+								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+								<p>{{ post.excerpt }}</p>
+								<ul class="actions">
+									<li><a href="{{ post.url | absolute_url }}" class="button">阅读全文</a></li>
+								</ul>
+							</article>
+							{% if mod3 == 0 %}
+							
+							{% endif %}
+						{% endfor %}
+
+					</section>

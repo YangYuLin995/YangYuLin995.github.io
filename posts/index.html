@@ -1,0 +1,38 @@
+---
+layout: page
+title: 学习笔记
+date:   2017-12-27 23:00:05 +0800
+sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
+<header class="major">
+	<h1><a href="#">学习笔记</a></h1>
+</header>
+
+<!-- Blockquote -->
+	<h2>目录</h2>
+	<blockquote><h3>请点击下列链接直达rwd/infovis学习笔记</h3><br /><h4><a href="https://yangyulin995.github.io/posts/rwd">1.rwd学习笔记</h4></a><h4><a href="https://yangyulin995.github.io/posts/rwd">1.infovis学习笔记</h4></a></blockquote>
+
+<!-- Post -->
+					<section class="posts">
+						{% for post in site.posts %}
+						{% assign mod3 = forloop.index | modulo: 3 %}
+							<article>
+								<header>
+									<span class="date">{{ post.date | date_to_string }}</span>
+									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+								</header>
+								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+								<p>{{ post.excerpt }}</p>
+								<ul class="actions">
+									<li><a href="{{ post.url | absolute_url }}" class="button">阅读全文</a></li>
+								</ul>
+							</article>
+							{% if mod3 == 0 %}
+							
+							{% endif %}
+						{% endfor %}
+
+					</section>
