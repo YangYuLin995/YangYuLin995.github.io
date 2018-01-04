@@ -3,7 +3,7 @@ layout: post
 title:  "搭建个人博客 学习笔记"
 date:   2017-12-24
 excerpt: "学习markdown语法是搭建博客的基础，博客的所有文章都可以有markdown文本来构建。"
-categories: posts rwd
+categories: rwd
 image: "/images/p1.jpg"
 ---
 
