@@ -1,11 +1,13 @@
 ---
 layout: default
-title:  "HTML 学习笔记"
-date:   2017-12-25
+title:  "HTML学习笔记"
+date:   2017-12-07 23:55:12 +0800
 categories: posts rwd
-image: "/images/p3.jpg"
+image:
+  teaser: p2.jpg
+  feature: p2.jpg
 ---
-# 有关html的学习。
+# HTML的元素与标签
 ---
 
 ## HTML 元素语法
