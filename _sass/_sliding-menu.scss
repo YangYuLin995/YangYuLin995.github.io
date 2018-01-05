@@ -132,7 +132,8 @@
       position: absolute;
       left: 0;
       margin-bottom: 0;
-      width: 50px;
+      width: 90px;
+	  height:55px;
       border: 2px solid #ecb90f;
       margin-bottom: ($gutter / 2);
       opacity: 0.6;
@@ -142,7 +143,7 @@
     }
     .title {
       display: block;
-      margin-left: 60px;
+      margin-left: 100px;
       font-family: $alt-font;
       @include font-size(24,no);
       font-weight: 700;
@@ -153,7 +154,7 @@
     }
     .excerpt {
       margin-top: 0;
-      margin-left: 60px;
+      margin-left: 120px;
       @include font-size(14,no);
       @include media($small) {
         margin-left: 170px;
