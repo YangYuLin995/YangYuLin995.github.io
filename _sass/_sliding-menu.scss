@@ -133,7 +133,7 @@
       left: 0;
       margin-bottom: 0;
       width: 50px;
-      border: 2px solid $white;
+      border: 2px solid #ecb90f;
       margin-bottom: ($gutter / 2);
       opacity: 0.6;
       @include media($small) {
@@ -142,6 +142,9 @@
     }
     a:hover .teaser {
       opacity: 1;
+      border: 2px solid #f5e2a5;
+    }
+	  
     }
     .title {
       display: block;
