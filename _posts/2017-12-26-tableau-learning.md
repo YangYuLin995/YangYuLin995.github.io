@@ -1,10 +1,13 @@
 ---
-layout: post
+layout: default
 title:  "Tableau 学习笔记"
-date:   2017-12-26
-excerpt: "Tableau的设计流程笔记。"
-categories: infovis
-image: "/images/p4.jpg"
+date:   2017-12-07 23:55:12 +0800
+categories: posts infovis
+image:
+  teaser: p4.jpg
+  feature: p4.jpg
+---
+# Tableau的设计流程笔记。
 ---
 
 ## Tableau 设计流程
