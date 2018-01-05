@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: default
 title:  "HTML 学习笔记"
 date:   2017-12-25
-excerpt: "学习搭建网站离不开学习HTML，本篇笔记内容是关于HTML的元素语法。"
-categories: rwd
+categories: posts rwd
 image: "/images/p3.jpg"
+---
+# 善用但不乱用字体
 ---
 
 ## HTML 元素语法
