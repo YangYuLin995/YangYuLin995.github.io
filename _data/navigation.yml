@@ -3,19 +3,19 @@
 - title: portfolio
   url: /portfolio/ 
   excerpt: "网页制作与设计作品集"
-  image: 兔兔3.gif
+  image: 导航配图1.gif
 
 - title: infovis
   url: /infovis/ 
   excerpt: "信息可视化作品集"
-  image: 龙猫.gif  
+  image: 导航配图2.gif  
   
 - title: 学习笔记
   url: /posts/ 
   excerpt: "学习笔记"
-  image: 奔跑.gif
+  image: 导航配图3.gif
  
 - title: contact
   url: /contact/ 
-  excerpt: "call me"
-  image: 泡泡.gif
+  excerpt: "联系我"
+  image: 导航配图4.gif
