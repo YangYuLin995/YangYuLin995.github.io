@@ -26,10 +26,10 @@
 	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;
-	color: $black;
+	color: #796957;
 	font-family: $alt-font;
 	font-weight: 700;
-	@include font-size(20,no);
+	font-size:3.5rem;
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
 }
