@@ -7,4 +7,3 @@ gem 'jekyll-mentions'
 gem 'jekyll-feed'
 gem 'jekyll-paginate'
 gem 'jekyll-admin', group: :jekyll_plugins
-gem 'github-pages'
