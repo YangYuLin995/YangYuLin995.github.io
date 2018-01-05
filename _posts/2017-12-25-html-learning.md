@@ -4,8 +4,8 @@ title:  "HTML学习笔记"
 date:   2017-12-07 23:55:12 +0800
 categories: posts rwd
 image:
-  teaser: p2.jpg
-  feature: p2.jpg
+  teaser: 配图2.jpg
+  feature: 配图2.jpg
 ---
 # HTML的元素与标签
 ---

@@ -4,8 +4,8 @@ title:  "Tableau 学习笔记"
 date:   2017-12-07 23:55:12 +0800
 categories: posts infovis
 image:
-  teaser: p4.jpg
-  feature: p4.jpg
+  teaser: 配图4.jpg
+  feature: 配图4.jpg
 ---
 # Tableau的设计流程笔记。
 ---

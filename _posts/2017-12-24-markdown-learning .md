@@ -4,8 +4,8 @@ title:  "如何搭建个人博客"
 date:   2017-12-07 23:55:12 +0800
 categories: posts rwd
 image:
-  teaser: p1.jpg
-  feature: p1.jpg
+  teaser: 配图1.jpg
+  feature: 配图1.jpg
 ---
 # 学习markdown语法是搭建博客的基础，博客的所有文章都可以有markdown文本来构建。
 ---
