@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: "我的博客"
+title: "一直在学习的学习博客"
 description: "学习开关"
 logo: # 个人的logo120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
@@ -32,7 +32,7 @@ owner:
   google:
     ad-client:
     ad-slot:
-  bio: "Learning"
+  bio: "LearningAllTheTime"
   avatar: personal.jpg
   disqus-shortname:
 
