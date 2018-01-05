@@ -1,10 +1,13 @@
 ---
-layout: post
-title:  "搭建个人博客 学习笔记"
-date:   2017-12-24
-excerpt: "学习markdown语法是搭建博客的基础，博客的所有文章都可以有markdown文本来构建。"
-categories: rwd
-image: "/images/p1.jpg"
+layout: default
+title:  "如何搭建个人博客"
+date:   2017-12-07 23:55:12 +0800
+categories: posts rwd
+image:
+  teaser: p1.jpg
+  feature: p1.jpg
+---
+# 学习markdown语法是搭建博客的基础，博客的所有文章都可以有markdown文本来构建。
 ---
 
 ## 如何搭建个人博客
