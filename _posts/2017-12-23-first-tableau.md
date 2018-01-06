@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "信息可视化期中项目"
+title:  "我的第一个可视化作品"
 date:   2017-12-07 23:55:12 +0800
 categories: visualization
 image:
