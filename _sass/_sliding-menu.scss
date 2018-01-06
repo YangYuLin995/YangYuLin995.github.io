@@ -65,7 +65,7 @@
   visibility: hidden;
   backface-visibility: hidden;
   text-align: left;
-  @include size(100% 100%);
+  @include size(100% 50%);
   @include media($small) {
     width: em(600);
   }
@@ -133,18 +133,18 @@
       position: absolute;
       left: 0;
       margin-bottom: 0;
-      width: 90px;
-	  height:55px;
-      border: 2px solid #ecb90f;
+      width: 120px;
+	  height:80px;
+      border: 4px solid #ecb90f;
       margin-bottom: ($gutter / 2);
-      opacity: 0.6;
+      opacity: 1;
       @include media($small) {
         width: 150px;
       }
     }
     .title {
       display: block;
-      margin-left: 100px;
+      margin-left: 150px;
       font-family: $alt-font;
       @include font-size(24,no);
       font-weight: 700;
@@ -155,7 +155,7 @@
     }
     .excerpt {
       margin-top: 0;
-      margin-left: 120px;
+      margin-left: 155px;
       @include font-size(14,no);
       @include media($small) {
         margin-left: 170px;
