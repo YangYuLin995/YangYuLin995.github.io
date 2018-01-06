@@ -65,7 +65,7 @@
   visibility: hidden;
   backface-visibility: hidden;
   text-align: left;
-  @include size(100% 50%);
+  @include size(50% 100%);
   @include media($small) {
     width: em(600);
   }
