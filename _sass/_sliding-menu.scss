@@ -74,7 +74,7 @@
   }
   transform: translateX(100%);
   transition: $sliding-menu-animation;
-  background: $sliding-menu-background;
+  background: rgba(34, 106, 138, 0.46);
   z-index: 20;
   overflow-y: auto;
   overflow-x: hidden;
