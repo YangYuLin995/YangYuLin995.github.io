@@ -1,31 +1,28 @@
 ---
 layout: article
 title:  "Tableau 图表类型详解"
-date:   2017-12-11 23:55:12 +0800
+date:   2017-12-12 23:55:12 +0800
 categories: posts infovis
 image:
-  teaser: 凹凸配图.jpg
-  feature: 凹凸配图.jpg
+  teaser: 甘特配图.jpg
+  feature: 甘特配图.jpg
 ---
-# 在tableau中总会有些图是晦涩难解的，本笔记解释本人不懂的图表。
+# 在tableau中总会有些图是晦涩难解的，本笔记解释甘特图。
 ---
 
-## Tableau 凹凸图
-* 凹凸图用于使用Measure值之一来比较两个尺寸。它们对于探索时间维度或地方维度或与分析相关的其他维度的值的变化非常有用。
-凹凸图采用两个维度，零个或多个度量。
+## Tableau 甘特图
+* 特图显示了一段时间内任务或资源的值的进度。它广泛用于项目管理和其他类型的变化在一段时间的研究。 因此，在甘特图中，时间维度是一个重要领域。
+除了时间维度之外，甘特图至少还需要一个维度和一个度量。
 
 ## 如何创建凹凸图
 
 * 第1步
-   * 将维子类别拖放到列框。还可将标注运输模式拖动到标记卡下的颜色货架。 将图表类型保留为自动。然后我们得到下面的图表。
-   <span class="image left"><img src="{{ "/images/凹凸1.jpg" | absolute_url }}" alt="" /></span>
+   * 将维度订单日期拖动到列框架和子类别到行搁架。接下来，我们将订单日期添加到过滤器架。还要右键点击订单日期，将其转换为确切的日期值。它是如下图所示。
+   <span class="image left"><img src="{{ "/images/甘特1.jpg" | absolute_url }}" alt="" /></span>
 * 第2步
-   * 接下来我们创建一个名为Rank的计算字段。转到分析创建计算字段。使用Rank作为字段名称，并在计算区域中写入表达式index()。它是一个内置函数，用于为分区中的当前行创建索引。单击确定，新字段将显示在度量部分。 右键单击字段Rank并将其转换为离散。
-   <span class="image left"><img src="{{ "/images/凹凸2.jpg" | absolute_url }}" alt="" /></span>
+  * 接下来，我们编辑过滤条件以选择日期范围。这是因为我们需要单独的日期值，并且数据中有非常多的日期。创建范围如下所示。
+   <span class="image left"><img src="{{ "/images/甘特2.jpg" | absolute_url }}" alt="" /></span>
 * 第3步
-   * 将Rank拖动到行搁板。下图显示尺寸子类别，每个船舶模式按其Rank值的升序排列。
-   <span class="image left"><img src="{{ "/images/凹凸3.jpg" | absolute_url }}" alt="" /></span>
-* 第4步
-   * 接下来，我们使用度量利润对等级字段应用一些更多的计算。在排名上，选择编辑表计算。 选择按字段利润排序，使用按子类别划分和按船模式寻址。下图显示了应用的计算。
-   <span class="image left"><img src="{{ "/images/凹凸4.jpg" | absolute_url }}" alt="" /></span>
-* 完成上述步骤后，我们得到凹凸图，如下所示。它显示了不同子类别下每种船舶模式的利润变化。
+  * 接下来，我们将尺寸出货模式拖动到颜色货架，将度量数量拖到标记卡下面的尺寸货架。这将产生甘特图，如下所示。
+   <span class="image left"><img src="{{ "/images/甘特3.jpg" | absolute_url }}" alt="" /></span>
+
