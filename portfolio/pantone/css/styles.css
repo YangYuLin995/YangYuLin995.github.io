@@ -32,8 +32,8 @@ img {
 }
 
 .MoneyShotImg {
-	border: 6px solid #e8cfa9;
-	border-radius: 4px;
+	border: 12px solid #e8cfa9;
+	border-radius: 8px;
 }
 
 .LogoWrapper {
@@ -41,19 +41,21 @@ img {
 }
 
 .ImageCaption {
-	font-size: .75rem;
+	font-size: .85rem;
 	position: absolute;
 	bottom: .5rem;
-	right: 1rem;
+	right: 0rem;
+	left: 0.5rem;
 }
 
 .IntroText {
-	font-size: 1.8rem;
-	font-style: italic;
+	font-size: 15px;
+	font-style: normal;
 }
 
 .MethodWrapper li {
 	padding: .4rem 0;
+	font-size: 18px;
 }
 
 .MethodWrapper li:after {
@@ -87,7 +89,7 @@ img {
 
 	.IntroText {
 		padding: .5rem;
-		font-size: 2.5rem;
+		font-size: 38px;
 		text-align: left;
 		position: relative;
 	}
