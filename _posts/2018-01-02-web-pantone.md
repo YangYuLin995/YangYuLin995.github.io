@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "2018pantone流行色"
-date:   2017-01-02 23:55:12 +0800
+date:   2018-01-02 23:55:12 +0800
 categories: web
 image:
   teaser: pantone.jpeg
