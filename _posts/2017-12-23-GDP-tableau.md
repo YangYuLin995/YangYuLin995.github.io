@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 title:  "中国GDP与POP的关系"
 date:   2017-12-08 23:55:12 +0800
 categories: visualization

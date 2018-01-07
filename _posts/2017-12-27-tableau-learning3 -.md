@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 title:  "Tableau 学习笔记"
 date:   2017-12-07 23:55:12 +0800
 categories: posts infovis

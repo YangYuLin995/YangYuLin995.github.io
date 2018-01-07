@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 title:  "我的第一个可视化作品"
 date:   2017-12-07 23:55:12 +0800
 categories: visualization

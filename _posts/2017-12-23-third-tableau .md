@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 title:  "可持续发展的可视化"
 date:   2017-12-11 23:55:12 +0800
 categories: visualization

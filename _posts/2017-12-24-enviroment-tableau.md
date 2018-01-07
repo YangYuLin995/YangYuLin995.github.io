@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 title:  "中国的自然教育和环境教育"
 date:   2017-12-23 23:55:12 +0800
 categories: visualization
