@@ -3,13 +3,14 @@ layout: archive
 title: "信息可视化作品集"
 date: 2018-1-1T14:25:45-04:00
 modified:
-excerpt: "期末可视化作品"
+excerpt: ""
 tags: []
 image: 
-  feature:test.jpg
+  feature:
   teaser:
 ---
-
+* <a href="//public.tableau.com/views/_18343/sheet0?:embed=y&:display_count=yes">概要：母婴室，洗手间，公共厕所，残疾人厕所的全国分布对比</a>
+<span class="image left"><img src="{{ "/images/test.jpg" | absolute_url }}" alt="" /></span>
 
 #### 我的其他作品（期中项目和日常小练手）
 <div class="tiles">
