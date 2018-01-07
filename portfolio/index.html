@@ -40,7 +40,7 @@ categories: portfolio
     height: 200px;
     transform: translate(-50%,-130%);
 }
-/*让文学与传媒学院中英文绕中心顺时针旋转*/
+/*让文学与传媒学院中英文绕中心瞬时针旋转*/
 @keyframes clockwise {
 	0% {
 		transform: rotate(0deg);
@@ -53,7 +53,7 @@ categories: portfolio
 	animation: clockwise 10s 3s;
 	transform-origin: 50% 50%;
 }
-/*让外围花纹绕中心顺时针旋转*/
+/*让外围花纹绕中心逆时针旋转*/
 @keyframes anticlockwise {
 	0% {
 		transform: rotate(0deg);
@@ -63,7 +63,7 @@ categories: portfolio
 	}
 }
 .flower {
-	animation: anticlockwise 10s 3s;
+	animation: anticlockwise 10s 5s;
 	transform-origin: 50% 50%;
 }
 /*让中心的钟摇摆*/
