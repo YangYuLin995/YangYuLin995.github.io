@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "母婴室，洗手间，公共厕所，残疾人厕所的全国分布对比"
+title:  "自然教育和环境教育在中国有什么分布情况？"
 date:   2018-01-03 23:55:12 +0800
 categories: web
 image:
