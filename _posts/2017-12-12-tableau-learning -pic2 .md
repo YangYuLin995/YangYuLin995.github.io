@@ -26,3 +26,4 @@ image:
   * 接下来，我们将尺寸出货模式拖动到颜色货架，将度量数量拖到标记卡下面的尺寸货架。这将产生甘特图，如下所示。
    <span class="image left"><img src="{{ "/images/甘特3.jpg" | absolute_url }}" alt="" /></span>
 
+```图表来自w3school```
