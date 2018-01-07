@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<div class="container">
+		<!-- polygon-->
+		<section id="polygon" class=" code-wrap cf">
+			<div class="css-live-wrap">
+				<summary><h1>多边形</h1></summary>
+				<summary><h2>hover变换效果</h2></summary>
+				<hgroup class="polygon">
+					<svg class="polygon-svg">
+						<defs>
+							<clipPath id="clip-svg-demo"clipPathUnits="objectBoundingBox">
+								<polygon points="0.25 0, 0.75 0, 1 0.5, 0.75 1, 0.25 1, 0 0.5"/>
+							</clipPath>
+						</defs>
+					</svg>
+				</hgroup>
+			</div>
+			<style class="code" contenteditable="true" >
+      .polygon {
+      	position: absolute;
+      	width: 400px;
+      	height: 400px;
+      	top: 30%;
+      	left: 10%;
+      	transform: translate(-20%, -10%);
+      	background-color: #8e216a;
+      	transition:.5s;
+      	-webkit-clip-path: polygon(33% 0%, 66% 0%, 100% 50%, 66% 100%, 33% 100%, 0% 50%, 0% 50%, 0% 50%, 0% 50%);
+      	clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+      }
+      .polygon:hover{
+      	background-color: #f6e759;
+      	-webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+      	clip-path: polygon(20% 0%, 40% 0%, 100% 50%, 40% 100%, 20% 100%, 0% 50%, 0% 50%, 0% 50%, 0% 50%);
+      }
+      .polygon-svg {
+      	width: 0;
+      	height: 0;
+      }
+			</style>
+		</section>
+</body>
+</html>
